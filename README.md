@@ -12,11 +12,11 @@ A plugin to administer motd ( Message of the Day) in verlihub
 
 ####################uses###########################
 
-commands: !notice add <notice to be added>
+commands: !notice add notice-to-be-added
 
 commands: !notice list
 
-commands: !notice del <id of notice>
+commands: !notice del id-of-notice
 
 for ex to add notice run: !notice add Sample message of the day
 
