@@ -20,7 +20,7 @@ for deleting a particular notice
 first get id of the notcie then run: !notice del 22
 this will delte notice whose id is 22
 
-####################requirements###################
+####################requirements##################
 make a table named notice with three column id , msg, and utcvalid
 create table notice ( id integer(20) primary key auto_increment, msg varchar(1000), utcvalid integer(20))
 change permission of motd file to rw and create a file motd_intro  with read permission which will contain the starting exts which will be always shown
