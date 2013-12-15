@@ -10,7 +10,8 @@ A plugin to administer motd ( Message of the Day) in verlihub
 
 
 
-####################uses###########################
+USES
+#######################################
 
 commands: !notice add notice-to-be-added
 
@@ -32,7 +33,8 @@ first get id of the notcie then run: !notice del 22
 
 this will delte notice whose id is 22
 
-####################requirements##################
+REQUIREMENTS
+#######################################
 make a table named notice with three column id , msg, and utcvalid
 
 create table notice ( id integer(20) primary key auto_increment, msg varchar(1000), utcvalid integer(20))
